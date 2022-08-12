@@ -1,0 +1,16 @@
+---
+title: "county_analysis"
+output: distill::distill_article
+date: "2022-08-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(distill)
+```
+
+```{r}
+read_rds("plot_2.rds")
+```
+

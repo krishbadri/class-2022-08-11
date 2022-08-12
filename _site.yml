@@ -1,4 +1,4 @@
-name: "."
+name: "Krish Badri"
 title: "Economic Connectedness"
 description: |
   Economic Connectedness
@@ -9,4 +9,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "State"
+      href: county_analysis.html
 output: distill::distill_article
